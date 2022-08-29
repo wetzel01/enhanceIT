@@ -12,9 +12,6 @@ class HeroListVC: UIViewController {
     var tableView = UITableView()
     var heroes: [Hero] = []
     let heroCell = "heroCell"
-    
-    weak var delegate: DataEnteredDelegate?
-    
     override func viewDidLoad() {
         view.backgroundColor = .blue
         title = "Main Hero Classes"
@@ -50,15 +47,6 @@ extension HeroListVC: UITableViewDelegate, UITableViewDataSource{
         
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //let heroDescription = HeroDescriptionList()
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let destination = storyboard.instantiateViewController(withIdentifier: "detailVC") as! HeroDescriptionList
-        destination.img = heroes[indexPath.row].image
-        destination.name = heroes[indexPath.row].title
-        navigationController?.pushViewController(destination, animated: true)
-    }
 }
 
 extension HeroListVC{
@@ -77,8 +65,4 @@ extension HeroListVC{
         
         return heroes
     }
-}
-
-protocol DataEnteredDelegate: AnyObject {
-    func userDidEnterInformation(info: String)
 }

@@ -20,7 +20,6 @@
 		0297B8C928B7EE9400C1F125 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297B8C828B7EE9400C1F125 /* Constants.swift */; };
 		0297B8CB28B7F7F400C1F125 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297B8CA28B7F7F400C1F125 /* UIView+Ext.swift */; };
 		0297B8CD28B7FB5700C1F125 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297B8CC28B7FB5700C1F125 /* HeroTableViewCell.swift */; };
-		0297B8D128BBF90800C1F125 /* HeroDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297B8D028BBF90800C1F125 /* HeroDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		0297B8C828B7EE9400C1F125 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0297B8CA28B7F7F400C1F125 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		0297B8CC28B7FB5700C1F125 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
-		0297B8D028BBF90800C1F125 /* HeroDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				0297B89428B7A62A00C1F125 /* AppDelegate.swift */,
 				0297B89628B7A62A00C1F125 /* SceneDelegate.swift */,
 				0297B89828B7A62A00C1F125 /* HeroListVC.swift */,
-				0297B8D028BBF90800C1F125 /* HeroDescription.swift */,
 				0297B89A28B7A62A00C1F125 /* Main.storyboard */,
 				0297B89D28B7A62D00C1F125 /* Assets.xcassets */,
 				0297B89F28B7A62D00C1F125 /* LaunchScreen.storyboard */,
@@ -291,7 +288,6 @@
 			files = (
 				0297B8C928B7EE9400C1F125 /* Constants.swift in Sources */,
 				0297B89928B7A62A00C1F125 /* HeroListVC.swift in Sources */,
-				0297B8D128BBF90800C1F125 /* HeroDescription.swift in Sources */,
 				0297B8CB28B7F7F400C1F125 /* UIView+Ext.swift in Sources */,
 				0297B89528B7A62A00C1F125 /* AppDelegate.swift in Sources */,
 				0297B8CD28B7FB5700C1F125 /* HeroTableViewCell.swift in Sources */,
